@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity-page</title>
+
+<!-- Link to shortcut icon -->
+    <link rel="shortcut icon" href="images/medal-solid.svg">
+
+<!-- Links to fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;1,400;1,500&family=Poppins:wght@400;500;600&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
+<!-- Link to icons -->
+<link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+
+<!-- Links to css files -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/activities.css">
+
+</head>
+<body>
+    <div class="containet">
+        <header>
+            <nav class="header-container">
+                <ul class="header-logo">
+                    <li class="header-logo"><span>Pulse </span><i class="fa-solid fa-dumbbell"></i><span> gym</span></li>
+                </ul>
+    
+                <ul class="header-menu">
+                    <li class="main-menu"><a class="main-menu" href="homepage.html">Hem</a></li>
+                    <li class="main-menu"><a class="main-menu" href="activities.html">Utbud</a></li>
+                    <li class="main-menu"><a class="main-menu" href="#">Om oss</a></li>
+                    <li class="main-menu"><a class="main-menu" href="#">Kontakta oss</a></li>
+                    <li class="member"><a class="main-menu" href="#">Medlemskap</a></li>
+                    
+                    <li class="dropdown-menu"><i class="fa-solid fa-bars"></i>
+                        <div class="submenu">
+                            <ul class="content">
+                                <li class="dropdown"><a href="homepage.html">Hem</a></li>
+                                <li class="dropdown"><a href="activities.html">Utbud</a></li>
+                                <li class="dropdown"><a href="#">Om oss</a></li>
+                                <li class="dropdown"><a href="#">Kontakta oss</a></li>
+                            </ul>
+                        </div>  
+                    </li> 
+    
+                </ul>
+    
+            </nav>
+          </header>
+        <section class="main-section">
+            <div class="main-container">
+
+                <div class="activities-header-picture">
+                    <div class="header-picture">
+                    <h1 class="h-activity">VÅRT UTBUD</h1>
+                    <hr>
+                    <h2 class="h-activity">Vi erbjuder en rad olika träningsmöjligheter.</h2>
+                    </div>
+                </div>
+    
+                <div class="activities-header">
+                    <h2 class="h-activity">Välj det som är du!</h2>
+                    <hr>
+                </div>
+    
+                <div class="activities">
+    
+                    <div class="activity">                   
+                        <div class="activity-picture">
+                            <img src="images/ikon_grupptraning.png" alt="">
+                        </div>
+                        <div class="activity-info">
+                            <h2>Gruppträning</h2>
+                            <p>Vet du att det är extra effektivt och roligt att träna i grupp. Hos oss hittar du ett brett utbud av gruppträningspass för alla!</p>
+                            <button>Läs mer</button>
+                        </div>
+                    </div>
+    
+                    
+                    <div class="activity">                   
+                        <div class="activity-picture">
+                            <img src="images/ikon_familjetraning.png" alt="">
+                        </div>
+    
+                        <div class="activity-info">
+                            <h2>Familjeträning</h2>
+                            <p>Det bästa sättet att få alla i familjen att börja träna är förstås att göra det tillsammans!</p>
+                            <button>Läs mer</button>
+                        </div>
+                    </div>
+                    
+                    <div class="activity">                   
+                        <div class="activity-picture">
+                            <img src="images/ikon_online365.png" alt="">
+                        </div>
+                        <div class="activity-info">
+                            <h2>Online365</h2>
+                            <p>Det är ett utmärkt komplement till din vanliga träning och sker helt på dina egna villkor. <br><br></p>
+                            <button>Läs mer</button>
+                        </div>
+                    </div>
+                    
+                    <div class="activity">                   
+                        <div class="activity-picture">
+                            <img src="images/ikon_gym.png" alt="">
+                        </div>
+                        <div class="activity-info">
+                            <h2>Gym</h2>
+                            <p>Vårt breda utbud av gymutrustning låter dig träna både styrka, kondition och rörlighet. </p>
+                            <button>Läs mer</button>
+                        </div>
+                    </div>
+                    
+                    <div class="activity">                   
+                        <div class="activity-picture">
+                            <img src="images/ikon_pt.png" alt="">
+                        </div>
+                        <div class="activity-info">
+                            <h2>Personlig träning</h2>
+                            <p>Behöver du hjälp? Om  detta stämmer in på dig så är träning med personlig tränare absolut något för dig.  </p>
+                            <button>Läs mer</button>
+                        </div>
+                    </div>
+                    
+                    <div class="activity">                   
+                        <div class="activity-picture">
+                            <img src="images/ikon_utomhus365.png" alt="">
+                        </div>
+                        <div class="activity-info">
+                            <h2>Utomhusträning</h2>
+                            <p>Utomhusträning med naturen och din egen kropp som redskap. Desutom får frisk luft och dagsljus. </p>
+                            <button>Läs mer</button>
+                        </div>
+                    </div>
+    
+                </div>
+    
+            </div>  
+        </section>
+
+        <section class="newsletter">
+            <h2>Prenumerera på våra nyhetsbrev!</h2>
+            <form action="#">
+                <input type="email" placeholder="E-postadress">
+                <button>Prenumerera</button>
+            </form>
+        </section>
+
+        <footer>
+            <div class="footer-container">
+                <ul>
+                    <li class="list-title">Snabbmenu</li>
+                    <li class="list"><a href="">Hem</a></li>
+                    <li class="list"><a href="">Utbud</a></li>
+                    <li class="list"><a href="">Om oss</a></li>
+                    <li class="list"><a href="">Kontakta oss</a></li>
+                    <li class="list"><a href="">Medlem</a></li>
+                </ul>
+                <ul>
+                    <li class="list-title"><a href="">Våra studios</a></li>
+                    <li class="list"><a href="">Skarpnäck</a></li>
+                    <li class="list"><a href="">Sätra</a></li>
+                    <li class="list"><a href="">Årsta</a></li>
+                    <li class="list"><a href="">Kista</a></li>
+                </ul>
+                <ul>
+                    <li class="list-title"><a href="">Follow oss</a></li>
+                    <li class="list"><a href="">Facebook</a></li>
+                    <li class="list"><a href="">Linkedin</a></li>
+                    <li class="list"><a href="">Instagramm</a></li>
+                    <li class="list"><a href="">Twitter</a></li>
+                </ul>
+            </div>
+        
+      </footer>
+
+    </div>
+    <script src="https://kit.fontawesome.com/ab590065fa.js" crossorigin="anonymous"></script>    
+</body>
+</html>
