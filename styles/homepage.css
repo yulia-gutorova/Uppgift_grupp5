@@ -51,7 +51,6 @@ footer{
 }  
 
 .header-container ul  li{
-    text-decoration: none;
     color: var(--color-black);
     margin:  0 10px;    
 }
@@ -306,7 +305,7 @@ footer .footer-container ul li.list-title{
         grid-template-rows: 0.7fr [photo] 0.2fr [header] 2fr [activities]; 
     } 
 
-  /*-------------------------  Main menu --------------------*/
+  /*------------------------- Header ------------------------*/
 
     .header-container ul li.main-menu {
         display: none;

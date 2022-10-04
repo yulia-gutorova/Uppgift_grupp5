@@ -58,7 +58,6 @@ footer{
 }  
 
 .header-container ul  li{
-    text-decoration: none;
     color: var(--color-black);
     margin:  0 10px;    
 }
@@ -107,7 +106,6 @@ footer{
 .activities-header-picture{
     grid-row: 1/2;
     grid-column: 1/2;
-    /* background-color: green; */
     background-image: url(../images/activities-picture1.JPG); 
     background-size: cover; 
 }
@@ -130,18 +128,18 @@ footer{
 }
 
 .main-container h1{
-    /* text-align: center; */
     margin-top: 0;
     padding-top: 25px;
-    /* font-size: 36px; */
 }
 
 .main-container h2{
-    /* padding-top: 20px; */
     text-align: center;
     font-family: roboto;
     font-weight: 500;
 }
+
+
+/* ----------------------Activity sections - Flex -----------*/
 
 .activities-header-picture h1, 
 .activities-header-picture h2,
@@ -151,8 +149,6 @@ footer{
     color: var(--color-white);
 }
 
-/* ----------------------Activity sections - Flex -----------*/
-
 .activity{
     border: 1px solid var(--color-black); 
     background-color: var(--color-darkblue); 
@@ -160,7 +156,6 @@ footer{
     width: 25%;
     text-align: center;
     margin: 2% 1%;
-    /* padding: 20px; */
     display: flex;
     flex-direction: column;
 }
@@ -168,7 +163,6 @@ footer{
 .activity-picture{
     height: 100px;
     border-radius:  20px  20px 0  0;
-    /* background-color: #485696; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -212,14 +206,8 @@ footer{
 }
 
  .newsletter button{
-/*     font-family: roboto;
-    background-color: var(--color-orange) ;  */
     height: 38px;
     border: none;
-/*     
-    font-size: 20px;
-    padding: 5px 20px; */
-
     border-radius: 0 20px 20px 0;
 
 }
@@ -327,7 +315,7 @@ footer .footer-container ul li.list-title{
     }
 
 
-    /*-------------------------  Main menu --------------------*/
+    /*-------------------------  Header ---------------------*/
 
     .header-container ul li.main-menu {
         display: none;
@@ -379,7 +367,6 @@ footer .footer-container ul li.list-title{
         background-color: var(--color-darkblue); 
         color: var(--color-orange);  
     }
-
 }
 
 /*-------------------------------------------------------------
