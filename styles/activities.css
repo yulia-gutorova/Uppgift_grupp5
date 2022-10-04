@@ -87,8 +87,8 @@ footer{
 }
 
 .header-container ul li a:hover{
-    background-color: var(--color-darkorange) ; 
-    color: var(--color-grayblue);  
+    background-color: var(--color-darkblue); 
+    color: var(--color-darkorange);   
 }  
 
 
